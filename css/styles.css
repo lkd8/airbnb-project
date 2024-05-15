@@ -1,0 +1,32 @@
+:root {
+    --color-light: #ffffff;
+    --color-dark: #000000;
+    --color-pink: #dc143c;
+    --font-body: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgba(97, 97, 97, 0.3), rgba(255, 255, 255, 0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
