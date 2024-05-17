@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Airbnb</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body>
-    <header>
-      <h1>Castelo medieval do século X</h1>
-      <h2><i class="fa-solid fa-star"></i>Nota 4.9 Llaés, Catalunha, Espanha</h2>
-    </header>
-    <main>
-        <section>
-        <div class="photo-grid">
-            <div class="photo-item1">
-                <img src="./images/1.webp" alt="Foto aérea do Castelo ao amanhecer">
-            </div> 
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-            <div class="photo-item2">
-                <img src="./images/2.webp" alt="Foto aérea do Castelo ao entardecer">
-            </div> 
-
-            <div class="photo-item3">
-                <img src="./images/3.webp" alt="Vista interna de um dos quartos do castelo">
-            </div> 
-
-            <div class="photo-item4">
-                <img src="./images/4.webp" alt="Mesa posta na varanda com vista para as montanhas">
-            </div> 
-
-            <div class="photo-item5">
-                <img src="./images/5.webp" alt="Imagem de rebanho de cabras da propriedade">
-            </div>   
-        </section>
-        <p>
-          Na cidade de Llaés somos 12 habitantes, e do que mais gostamos no nosso
-          bairro, a tranquilidade e harmonia que se respira, o verde das montanhas
-          com o contraste do azul elétrico do céu. Adoramos tardes tranquilas,
-          onde, só de olhar para cima, você vê águias, corujas ao anoitecer,
-          borboletas, lebres, moles, raposas e inúmeros vizinhos correndo pelo
-          bairro!
-        </p>
-      </main>
-
-      <section>
-        <h3>O que esse lugar oferece:</h3>
-      </section>
-
-    <section>
-      <div class="link">
-        <h2>R$ 3.550/ noite</h2>
-        <a href="" class="btn">Buscar disponibilidade</a>
-      </div> 
+<body>
+  <header>
+    <h1>Castelo medieval do século X</h1>
+    <p><i class="fa-solid fa-star"></i>Nota 4.9 Llaés, Catalunha, Espanha</p>
+  </header>
+  <main>
+    <section class="photos-section">
+      <img class="photo main-photo" src="./images/1.webp" alt="Foto aérea do Castelo ao amanhecer">
+      <div class="photo-grid">
+        <img class="photo photo-item" src="./images/2.webp" alt="Foto aérea do Castelo ao entardecer">
+        <img class="photo photo-item" src="./images/3.webp" alt="Vista interna de um dos quartos do castelo">
+        <img class="photo photo-item" src="./images/4.webp" alt="Mesa posta na varanda com vista para as montanhas">
+        <img class="photo photo-item" src="./images/5.webp" alt="Imagem de rebanho de cabras da propriedade">
+      </div>
     </section>
+    <div class="description">
+      <h3>Descrição</h3>
+      <p>
+        Na cidade de Llaés somos 12 habitantes, e do que mais gostamos no nosso
+        bairro, a tranquilidade e harmonia que se respira, o verde das montanhas
+        com o contraste do azul elétrico do céu. Adoramos tardes tranquilas,
+        onde, só de olhar para cima, você vê águias, corujas ao anoitecer,
+        borboletas, lebres, moles, raposas e inúmeros vizinhos correndo pelo
+        bairro!
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <section class="details">
+      <h3>O que esse lugar oferece:</h3>
+      <div class="icons-list">
+        <div class="icon-card">
+          <i class="fa-solid fa-kitchen-set"></i>
+          <p>Cozinha</p>
+        </div>
+        <div class="icon-card">
+          <i class="fa-solid fa-mountain"></i>
+          <p>Vista para as montanhas</p>
+        </div>
+        <div class="icon-card">
+          <i class="fa-solid fa-wifi"></i>
+          <p>WiFi</p>
+        </div>
+        <div class="icon-card">
+          <i class="fa-solid fa-car"></i>
+          <p>Estacionamento incluso</p>
+        </div>
+        <div class="icon-card">
+          <i class="fa-solid fa-paw"></i>
+          <p>Permitido animais</p>
+        </div>
+        <div class="icon-card">
+          <i class="fa-solid fa-spa"></i>
+          <p>Vista para o jardim</p>
+        </div>
+      </div>
+    </section>
+    <div class="link">
+      <h2>R$ 3.579 / noite</h2>
+      <a href="https://www.airbnb.com.br/rooms/2328455" target="_blank">
+        <button class="btn"> Buscar disponibilidade</button>
+      </a>
+    </div>
 
 
-  </body>
+
+  </footer>
+
+
+</body>
+
 </html>
