@@ -1,7 +1,7 @@
 :root {
     --color-light: #ffffff;
     --color-dark: #000000;
-    --color-pink: #dc143c;
+    --color-hue: #404aa7;
     --font-body: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -174,8 +174,8 @@ footer {
 
 
 .btn {
-    border: 3px solid var(--color-pink);
-    background-color: var(--color-pink);
+    border: 3px solid var(--color-hue);
+    background-color: var(--color-hue);
     color: var(--color-light);
     font: var(--font-body);
     font-weight: bold;
@@ -193,5 +193,5 @@ footer {
 .btn:hover {
     border: 3px solid var(--color-dark);
     background-color: var(--color-dark);
-    color: var(--color-pink);
+    color: var(--color-hue);
 }
